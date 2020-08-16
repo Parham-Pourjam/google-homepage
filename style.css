@@ -3,8 +3,26 @@
   margin-top: 200px;
   }
 
-  .mainform {
+li {
+    display: inline;
+    font-family: "Arial", "Sans-Serif";
+    font-size: 13px;
+    
+}
+
+
+.mainform {
     margin-top: 10px;
+}
+
+.top-left {
+  padding-left: 15px;
+}
+
+.top-right {
+  float: right;
+  padding-right: 15px;
+
 }
 
 body {
@@ -12,12 +30,14 @@ body {
   padding: 0;
 }
 
+
 #searchbarinput {
   font-family: Arial;
   font-size: 16px;
   margin-top: 2.5px;
-  width: 300px;
+  width: 400px;
   height: 2.5em;
+  border-radius: 10px;
 }
 
 .submit{
@@ -33,5 +53,45 @@ body {
 
 #google-about {
   padding-top: 10px;
+  font-size: small;
 }
-  
+
+#logo {
+  border-radius: 50px;
+}
+
+.footer-top {
+  position: fixed;
+  bottom: 35px;
+  left: 0px;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #cacaca;
+  line-height: 20px;
+}
+
+.footer-item {
+  margin-left: 50px;
+  font-size: small;
+}
+
+.footer-bottom {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #f2f2f2;
+  border-top: 1px solid #cacaca;
+  line-height: 7px;
+}
+
+
+.footer-bottom-left {
+  color: #5f6368;
+  padding: 10px;
+}
+
+.footer-bottom-right {
+  display: flex;
+  float: right;
+}
