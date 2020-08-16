@@ -7,9 +7,7 @@ li {
     display: inline;
     font-family: "Arial", "Sans-Serif";
     font-size: 13px;
-    
 }
-
 
 .mainform {
     margin-top: 10px;
@@ -17,11 +15,18 @@ li {
 
 .top-left {
   padding-left: 15px;
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none;
 }
+
 
 .top-right {
   float: right;
   padding-right: 15px;
+  color: #000;
+  opacity: 0.75;
+  text-decoration: none;
 
 }
 
@@ -38,6 +43,15 @@ body {
   width: 400px;
   height: 2.5em;
   border-radius: 10px;
+}
+
+#app-logo {
+  height: 30px;
+  width: 30px;
+  background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: 528px 68px;
+  background-position: -132px -38px;
+  opacity: .55;
 }
 
 .submit{
@@ -68,6 +82,7 @@ body {
   background: #f2f2f2;
   border-top: 1px solid #cacaca;
   line-height: 20px;
+  padding-bottom: 10px;
 }
 
 .footer-item {
@@ -82,16 +97,37 @@ body {
   width: 100%;
   background: #f2f2f2;
   border-top: 1px solid #cacaca;
-  line-height: 7px;
+  line-height: 0px;
 }
 
+.french-link {
+  color: #1a0dab;
+  text-decoration: none;
+}
 
 .footer-bottom-left {
   color: #5f6368;
   padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .footer-bottom-right {
   display: flex;
   float: right;
+  padding: 10px;
+  color: #5f6368;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.submit:hover {
+    background: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
 }
